@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#0ea5a4"/>
+    </linearGradient>
+    <style>
+      .bg{fill:url(#g)}
+      .title{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; font-weight:700; font-size:56px; fill:#fff}
+      .subtitle{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; font-weight:500; font-size:28px; fill:rgba(255,255,255,0.9)}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="630" rx="24"/>
+  <g transform="translate(80,180)">
+    <text class="title">Kayode</text>
+    <text class="subtitle" y="64">Front-end Developer — Lagos, Nigeria</text>
+  </g>
+  <g transform="translate(80,520)">
+    <text class="subtitle">kayodemosadoluwa714@gmail.com</text>
+  </g>
+</svg>
