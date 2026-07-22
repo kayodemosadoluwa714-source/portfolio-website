@@ -2,38 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="z4tiCoslJtdxJK4b3TCkqPzV7DakdiD5pLW3ISCCo6s" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kayode - Professional Front-end Developer based in Nigeria. I build fast, responsive, and modern websites.">
-    <meta name="keywords" content="front-end developer nigeria, web developer lagos, portfolio website, responsive web design">
-    <meta name="author" content="Kayode">
-    
-    <!-- Social preview meta -->
-    <meta property="og:title" content="Kayode | Front-end Developer in Nigeria">
-    <meta property="og:description" content="I build fast, responsive, and beautiful websites for businesses and individuals.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://eclectic-sawine-b2e15b.netlify.app">
-    <meta property="og:image" content="https://eclectic-sawine-b2e15b.netlify.app/images/og-image.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:alt" content="Kayode — Front-end Developer social preview">
-    <meta property="og:image:width" content="1080">
-    <meta property="og:image:height" content="1350">
-    <link rel="image_src" href="https://eclectic-sawine-b2e15b.netlify.app/images/og-image.jpg">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Kayode | Front-end Developer in Nigeria">
-    <meta name="twitter:description" content="I build fast, responsive, and beautiful websites for businesses and individuals.">
-    <meta name="twitter:image" content="https://eclectic-sawine-b2e15b.netlify.app/images/og-image.jpg">
-    <meta name="twitter:image:alt" content="Kayode — Front-end Developer social preview">
-    
-    <title>Kayode | Front-end Developer in Nigeria</title>
+    <meta name="description" content="Kayode Mosadoluwa - Front-end Developer based in Lagos, Nigeria. Specializing in modern, responsive, and high-converting websites.">
+    <meta name="keywords" content="front-end developer, web developer lagos, html css javascript, portfolio, responsive website">
+    <meta name="author" content="Kayode Mosadoluwa">
+    <title>Kayode | Front-end Developer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- (Rest of the code remains the same) -->
+    <!-- HEADER -->
     <header>
         <nav>
-            <div class="logo">Kayode</div>
+            <div class="logo">KAYODE</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -41,35 +22,43 @@
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <button class="mobile-menu">☰</button>
-            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <button id="mobile-menu" class="mobile-menu">☰</button>
+            <div id="theme-toggle">🌙</div>
         </nav>
     </header>
 
+    <!-- HERO -->
     <section class="hero">
-        <h1>Hi, I'm Kayode 👋</h1>
-        <h2>Front-end Developer • Lagos, Nigeria</h2>
-        <p>I create modern, fast, and responsive websites that help businesses and individuals stand out online.</p>
-        <a href="projects.html" class="btn primary">View My Projects</a>
-        <a href="contact.html" class="btn secondary">Let's Work Together</a>
+        <div class="hero-content">
+            <h1>Hi, I'm Kayode</h1>
+            <h2>Front-end Developer</h2>
+            <p class="hero-tagline">I create modern, fast, and responsive websites that help businesses and individuals stand out online.</p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn primary">View My Projects</a>
+                <a href="contact.html" class="btn secondary">Let's Work Together</a>
+            </div>
+        </div>
     </section>
 
-    <script src="js/script.js"></script>
-    
-    <!-- Footer -->
-    <footer style="background: var(--card); padding: 4rem 5% 2rem; margin-top: 4rem; text-align: center; border-top: 1px solid var(--border);">
-        <p style="margin-bottom: 1rem; font-size: 1.1rem;">&copy; 2026 Kayode. All Rights Reserved.</p>
-        <div style="margin: 1.5rem 0;">
-            <a href="index.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Home</a>
-            <a href="about.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">About</a>
-            <a href="projects.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Projects</a>
-            <a href="services.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Services</a>
-            <a href="contact.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Contact</a>
+    <!-- TESTIMONIALS -->
+<section class="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonials-grid">
+        <div class="testimonial-card">
+            <p>"Kayode delivered a stunning, high-converting landing page that exceeded our expectations. Professional and fast."</p>
+            <strong>— Adewale O., Founder, R3BEL</strong>
         </div>
-        <p style="font-size: 0.95rem; opacity: 0.8;">
-            Built with ❤️ in Nigeria • 
-            <a href="https://github.com/kayodemosadoluwa714-source/portfolio-website" target="_blank" style="color: var(--primary);">View Source</a>
-        </p>
+        <div class="testimonial-card">
+            <p>"Excellent communication and clean code. My website now loads faster and looks premium."</p>
+            <strong>— Fatima B., Business Owner</strong>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2026 Kayode Mosadoluwa. All Rights Reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

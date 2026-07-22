@@ -2,34 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="z4tiCoslJtdxJK4b3TCkqPzV7DakdiD5pLW3ISCCo6s" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Featured Projects by Kayode - Front-end Developer in Nigeria">
-    
-    <meta property="og:title" content="Projects | Kayode">
-    <meta property="og:description" content="Check out my web development projects.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://eclectic-sawine-b2e15b.netlify.app">
-    <meta property="og:image" content="https://eclectic-sawine-b2e15b.netlify.app/images/og-image.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:alt" content="Kayode — Front-end Developer social preview">
-    <meta property="og:image:width" content="1080">
-    <meta property="og:image:height" content="1350">
-    <link rel="image_src" href="https://eclectic-sawine-b2e15b.netlify.app/images/og-image.jpg">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Projects | Kayode">
-    <meta name="twitter:description" content="Check out my web development projects.">
-    <meta name="twitter:image" content="https://eclectic-sawine-b2e15b.netlify.app/images/og-image.jpg">
-    <meta name="twitter:image:alt" content="Kayode — Front-end Developer social preview">
-    
-    <title>Projects | Kayode</title>
+    <meta name="description" content="Kayode Mosadoluwa - Front-end Developer based in Lagos, Nigeria. Specializing in modern, responsive, and high-converting websites.">
+    <meta name="keywords" content="front-end developer, web developer lagos, html css javascript, portfolio, responsive website">
+    <meta name="author" content="Kayode Mosadoluwa">
+    <title>Kayode | Front-end Developer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <nav>
-            <div class="logo">Kayode</div>
+            <div class="logo">KAYODE</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -37,51 +22,32 @@
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <button class="mobile-menu">☰</button>
-            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <button id="mobile-menu" class="mobile-menu">☰</button>
+            <div id="theme-toggle">🌙</div>
         </nav>
     </header>
 
-    <section style="padding-top: 100px;">
-        <h1 style="text-align: center; margin-bottom: 3rem;">Featured Projects</h1>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
-            <div class="card">
-                <h3>Personal Portfolio</h3>
-                <p>This very website you're viewing. Built with HTML, CSS, and JavaScript with dark mode support.</p>
-                <a href="https://eclectic-sawine-b2e15b.netlify.app" class="btn primary" style="margin-top: 1rem;">View Live</a>
-            </div>
-            
-            <div class="card">
-                <h3>Business Landing Page</h3>
-                <p>Modern landing page for a Nigerian fashion brand.</p>
-                <a href="#" class="btn primary" style="margin-top: 1rem;">View Live</a>
-            </div>
-            
-            <div class="card">
-                <h3>Tribute Page</h3>
-                <p>Responsive tribute page built during freeCodeCamp course.</p>
-                <a href="#" class="btn primary" style="margin-top: 1rem;">View Live</a>
+    <section class="projects-hero">
+        <h1>My Projects</h1>
+        <p>Selected works showcasing clean code and modern design</p>
+    </section>
+
+    <section class="projects-container">
+        <div class="card">
+            <h3>R3BEL - Premium Face Caps</h3>
+            <p>A high-converting landing page with cart system and Paystack integration for a Lagos streetwear brand.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript, Paystack</p>
+            <div class="project-links">
+                <a href="https://r3b3l.netlify.app" target="_blank" class="btn primary">View Live</a>
+                <a href="https://github.com/kayodemosadoluwa714-source/r3bel-landing-page" target="_blank" class="btn secondary">View Code</a>
             </div>
         </div>
     </section>
 
-    <script src="js/script.js"></script>
-    
-    <!-- Footer -->
-    <footer style="background: var(--card); padding: 4rem 5% 2rem; margin-top: 4rem; text-align: center; border-top: 1px solid var(--border);">
-        <p style="margin-bottom: 1rem; font-size: 1.1rem;">&copy; 2026 Kayode. All Rights Reserved.</p>
-        <div style="margin: 1.5rem 0;">
-            <a href="index.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Home</a>
-            <a href="about.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">About</a>
-            <a href="projects.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Projects</a>
-            <a href="services.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Services</a>
-            <a href="contact.html" style="margin: 0 15px; color: var(--text); text-decoration: none;">Contact</a>
-        </div>
-        <p style="font-size: 0.95rem; opacity: 0.8;">
-            Built with ❤️ in Nigeria • 
-            <a href="https://github.com/kayodemosadoluwa714-source/portfolio-website" target="_blank" style="color: var(--primary);">View Source</a>
-        </p>
+    <footer>
+        <p>&copy; 2026 Kayode Mosadoluwa. All Rights Reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
