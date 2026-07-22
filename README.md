@@ -15,7 +15,7 @@ Passionate self-taught Front-end Developer based in Lagos, Nigeria. I build mode
 
 ## Get In Touch
 - Email: kayodemosadoluwa714@gmail.com
-- Portfolio: https://your-portfolio.netlify.app
+- Portfolio: https://kayode-portfolio.netlify.app
 - GitHub: https://github.com/kayodemosadoluwa714-source
 
 Made with ❤️ in Nigeria
